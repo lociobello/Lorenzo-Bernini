@@ -1,9 +1,12 @@
 h1{
-	color:blue;
-	background-color:yellow;
+	color:white;
+	background-color:#2181FF;
 	text-align: center;
 }
 
+h2{
+	color: #2181FF;
+}
 body{
 	background: #eee;
 	font-family: helvetica lt std
