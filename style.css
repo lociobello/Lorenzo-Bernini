@@ -1,7 +1,22 @@
+ *{
+ 	font-weight: normal;
+ }
+
+ @font-face {
+ 	font-family: helvetica-regular;
+ 	src: url(./HelveticaNeueLTStd-Roman.otf);
+ }
+
+ @font-face{
+ 	font-family: helvetica-bold;
+ 	src: url(./HelveticaNeueLTStd-Bd.otf);
+ }
+
 h1{
 	color:white;
 	background-color:#2181FF;
 	text-align: center;
+	font-family: helvetica-bold;
 }
 
 h2{
@@ -9,7 +24,7 @@ h2{
 }
 body{
 	background: #eee;
-	font-family: helvetica lt std
+	font-family: helvetica-regular
 }
 
 #Contacts{
