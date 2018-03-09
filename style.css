@@ -62,11 +62,11 @@ body{
 }
 
 a{
-	-o-transition:5s;
-	-ms-transition:5s;
-	-moz-transition:5s;
-	-webkit-transition:5s;
-	transition: 5s;
+	-o-transition:1s;
+	-ms-transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+	transition: 1s;
 	text-decoration: none;
 }
 
@@ -91,7 +91,7 @@ h3{
 	text-transform: capitalize;
 	font-size: 1.875em;
 	padding: 0 0 1% 0;
-	color: blue;
+	color: #011833;
 	font-weight: 800;
 }
 
@@ -102,24 +102,24 @@ header{
 .intro{
 	max-width: 960px;
 	margin: 0 auto;
-	padding: 8% 0;
+	padding: 2% 0;
 }
 
 .intro h1{
-	font-size: 6em;
-	text-align: center;
+	font-size: 1.5em;
+	text-align: left;
 	color: #fff;
 	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	font-weight: 800;
+	letter-spacing: 0.05em;
+	font-weight: 400;
 	line-height: 1.5em
 }
 
 .intro h2{
-	font-size: 2em;
-	text-align: center;
+	font-size: 1em;
+	text-align: left;
 	color: #fff;
-	font-weight: 300;
+	font-weight: 100;
 	text-transform: capitalize;
 }
 
