@@ -66,7 +66,7 @@ a{
 	-ms-transition:1s;
 	-moz-transition:1s;
 	-webkit-transition:1s;
-	transition: 1s;
+	transition: 0s;
 	text-decoration: none;
 }
 
@@ -211,7 +211,7 @@ header{
 	background-color: #011833;
 	padding: 5% 0;
 	margin-top: 5%;
-	clear: both;
+	
 }
 
 .contact-content{
@@ -279,11 +279,11 @@ footer{
 	color: #fff;
 	padding: 0.2em;
 	font-size: 1.8em;
-	font-weight: 600;
+	font-weight: 100;	;
 }
 
 .social li a:hover{
-	color: #55c2f7;
+	color: #ff5050;
 }
 
 @media only screen and (max-width: 1000px){
@@ -312,12 +312,12 @@ footer{
 
 @media only screen and (max-width: 800px){
 	.intro h1{
-		font-size: 4em;
+		font-size: 1.5em;
 		line-height: 1.2;
 	}
 	.intro h2{
-		font-size: 1.8em;
-		padding-top: 3%;
+		font-size: 1em;
+		padding-top: 0;
 	}
 	.about p {
 		font-size: 1em;
@@ -332,13 +332,13 @@ footer{
 		font-size: 14px;
 	}
 	.social{
-		float: left;
+		float: right;
 	}
 	.social li a{
 		font-size: 1.3em
 	}
 	.contact-content{
-		font-size: 120px;
+		font-size: 10px;
 		line-height: 1.5;
 	}
 }
