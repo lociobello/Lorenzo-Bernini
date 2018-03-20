@@ -1,3 +1,24 @@
 body{
-	font-family: Helvetica
+	font-family: Helvetica;
+	font-weight: bold;
+}
+.menu{
+	display: block;
+	background-color: rgb(0,0,0);
+	color: white
+
+}
+
+.menu-item{
+	display: inline-block;
+	padding: 10px;
+	margin: 30px;
+	border: 5px solid;
+	border-color: rgb(255,0,0);
+	text-align: right;
+}
+
+a{
+	color: white;
+	text-decoration: none;
 }
