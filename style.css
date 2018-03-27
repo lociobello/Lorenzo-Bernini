@@ -18,11 +18,7 @@ header{
 }
 
 main{
-	height: 55vh;
-	padding: 30px;
-	padding-top: 70px;
-	padding-left: 100px;
-	padding-right: 100px;
+	height: 200vh;
 	font-weight: book;
 }
 
@@ -33,10 +29,6 @@ footer{
 	padding-top: 1px
 }
 
-h1{
-	padding-left: 200px;
-	padding-bottom: 70px
-}
 
 .menu{
 	display: block;
@@ -71,4 +63,18 @@ a:hover{
 
 .link2{
 	color: #ff0066
+}
+
+.presentazione{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 400px;
+	background-color: #ff0066;
+	color: white;
+}
+
+#sezione-progetti{
+	padding-right: 300px;
+	padding-left: 300px;
+	padding-top: 50px
 }
