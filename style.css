@@ -1,120 +1,241 @@
 @font-face{font-family: Circular; src: url('Fonts/Circular/CircularStd-Medium.otf');}
 @font-face{font-family: Circular; font-weight: bold; src: url('Fonts/Circular/CircularStd-Bold.otf');}
 @font-face{font-family: Circular; font-weight: book; src: url('Fonts/Circular/CircularStd-Book.otf');}
+@font-face{font-family: Roboto; src: url('Fonts/Roboto/Roboto-Regular.ttf');}
 
-body{
-	font-family: Circular, sans-serif;
-	margin: 0px;
-	background-color: rgb(0,104,255);
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
 }
-
-header{
-	font-weight: bold;
-	height: 60px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 270px;
-	padding-left: 270px
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+html{
+	font-family: Circular;
+	font-weight: 100;
+}
+body{
+	width: 60%;
+	margin: auto;
+	background-image: url(immagini/BG.png);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.blue{
+	color: #027BFF;
 }
 h1{
-	color: rgb(255,230,59);
+	font-size: 40px;
+	font-weight: bold;
+	color: #17191A;
+}
+h2{
+	font-size: 35px;
+	font-weight: bold;
+	color: #17191A;
+}
+h5{
+	font-weight: 25;
+	font-size: 20px;
+	margin-top: 10px;
+	color: #17191A;
+}
+h6{
+	font-size: 15px;
+	font-weight: 30;
+	color: #8F9EA5;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	line-height: 25px
+}
+p{
+	color: #8F9EA5;
+	opacity: 0.8;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: book
 }
 
-
-main{
-	height: 300vh;
-	
+/*-------------------Nav-----------------*/
+.nav{
+	display: flex;
+	align-items: center;
+	height: 100px;
 }
-
-footer{
-	height: 20vh;
-	background-color: rgb(0,93,204);
-	color: rgb(255,255,255);
-	padding-top: 1px
+.contactMe, .navIcons{
+	flex: 1;
 }
-
-.titolo{
-
+.navIcons{
+	text-align: right;
 }
-
-.sottotitolo{
-	padding-left: 100px
-}
-
-.menu{
-	display: block;
-	color: black;
-	height: 0px;
-}
-
-.menu-item{
+.navIcons a, .contactMe a, .contactMe img{
 	display: inline-block;
-	padding: 20px;
+	vertical-align: middle;
+}
+.navIcons a{
+	margin-left: 40px;
+}
+.contactMe a{
+	color: #027BFF;
+	text-decoration: none;
+}
+.contactMe img{
+	margin-right: 10px;
+}
+
+/*-------------------Intro-----------------*/
+.intro{
+	height: 100vh;
+	position: relative;
+}
+.introWrapper{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+ul{
+	list-style: none;
+	margin-top: 30px;
+	line-height: 30px;
+}
+.introL{
+	margin-top: 4em;
+}
+.introL p{
+	margin-top: 35px;
+}
+.scroll{
+	position: absolute;
+	bottom: 180px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+/*-------------------Skills-----------------*/
+.skills{
+	text-align: center;
+	margin-bottom: 20em;
+}
+.skills p{
+	margin-bottom: 30px;
+}
+.skills img{
+	width: 40px;
+	margin: 0 15px;
+}
+
+/*-------------------Work 01-----------------*/
+.work{
+	width: 100%;
+	position: relative;
+	margin-bottom: 20em;
+}
+.work > .workText{
+	position: absolute;
+	top: 55px;
+	padding: 30px;
+	background-color: white;
+	box-shadow: 2px 25px 105px -34px rgba(0,0,0,0.4);
+	transition: all .5s cubic-bezier(0.34, 1.01, 0.85, 0.99);
+}
+.work > .workText > .underline{
+	display: block;
+	background-color: #027BFF;
+	height: 3px;
+	width: 61px;
+	margin-top: 5px;
+}
+.work > .workImg{
+	width: 85%;
+	float: right;
+	transition: all .5s cubic-bezier(0.34, 1.01, 0.85, 0.99);
+	box-shadow: -2px 46px 165px -25px rgba(0,0,0,0.37);
+}
+.work ul{
+	position: absolute;
+	bottom: 0;
+	right: 86%;
+	margin-right: 10px;
+}
+.work ul li{
+	margin-top: 20px;
+}
+
+/*-------------------Work 02-----------------*/
+.work2{
+	width: 100%;
+	position: relative;
+	margin-bottom: 20em;
+}
+.work2 > .workText{
+	position: absolute;
+	top: 55px;
+	right: 0;
+	text-align: right;
+	padding: 30px;
+	background-color: white;
+	box-shadow: 2px 25px 105px -34px rgba(0,0,0,0.4);
+	transition: all .5s cubic-bezier(0.34, 1.01, 0.85, 0.99);
+}
+.work2 > .workText > .underline{
+	display: block;
+	background-color: #027BFF;
+	height: 3px;
+	width: 61px;
+	margin-top: 5px;
 	float: right;
 }
-
-#homepage{
+.work2 > .workImg{
+	width: 85%;
 	float: left;
+	transition: all .5s cubic-bezier(0.34, 1.01, 0.85, 0.99);
+	box-shadow: -2px 46px 165px -25px rgba(0,0,0,0.37);
+}
+.work2 ul{
+	position: absolute;
+	bottom: 0;
+	left: 86%;
+	margin-left: 10px
+}
+.work2 ul li{
+	margin-top: 20px;
 }
 
-a{
-	color: rgb(255,230,59);
+/*-------------------Footer-----------------*/
+.footer{
+	padding-bottom: 7em;
+	text-align: center;
+}
+.footer a{
+	color: #027BFF;
 	text-decoration: none;
-	transition: color 0.3s ease;
+}
+.underlineSmall{
+	display: block;
+	height: 3px;
+	width: 41px;
+	margin: 5px auto 0 auto;
+	background-color: #027BFF;
 }
 
-a:hover{
-	color: #ff0066
+/*-------------------Work 01 e 02-----------------*/
+.work a, .work2 a{
+	text-decoration: none;
+	color: #17191A;
 }
-
-.fondo{
-	padding: 10px;
-	padding-top: 40px;
-	margin: 30px
+.workImg:hover{
+	box-shadow: 0px 10px 56px -30px rgba(0,0,0,0.39);
+	margin-top: 10px;
 }
-
-.link2{
-	color: #ff0066
+.workText:hover{
+	margin-top: -10px
 }
-
-.presentazione{
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-left: 400px;
-	color: white;
-}
-
-.sezione-progetti{
-	padding-right: 200px;
-	padding-left: 200px;
-	text-align: center;	
-}
-
-.progetto{
-	background-color: white;
-	width: 900px;
-	height: 500px;
-	padding-left: 40px;
-	padding-right: 40px;
-	margin: 30px auto;
-    display: inline-block;
-}
-
-.thumbnail{
-	height: 300px;
-	width: 800px;
-	margin: 45px auto;
-}
-
-.titolo-card{
-	padding-left: 85px;
-	color: rgb(0,104,255);
-	text-align: left;
-}
-
-.inner-beauty{
-	background-image: url(Foto/inner-beauty/thumbnail.png);
-	background-size: 99%;
-	background-position: center;
-}
-
