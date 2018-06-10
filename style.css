@@ -232,10 +232,17 @@ ul{
 	text-decoration: none;
 	color: #17191A;
 }
-.workImg:hover{
+.work:hover .workImg{
 	box-shadow: 0px 10px 56px -30px rgba(0,0,0,0.39);
 	margin-top: 10px;
 }
-.workText:hover{
+.work:hover .workText{
+	margin-top: -10px
+}
+.work2:hover .workImg{
+	box-shadow: 0px 10px 56px -30px rgba(0,0,0,0.39);
+	margin-top: 10px;
+}
+.work2:hover .workText{
 	margin-top: -10px
 }
