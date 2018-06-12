@@ -225,12 +225,26 @@ ul{
 	color: #027BFF;
 	text-decoration: none;
 }
-.underlineSmall{
+.footer h3, .footer i{
 	display: inline-block;
+}
+.underlineSmall{
+	position: relative;
+}
+.underlineSmall::before{
+	content: "";
 	height: 3px;
-	width: 41px;
-	margin: 5px auto 0 auto;
+	width: 100%;
+	position: absolute;
+	bottom: -5px;
 	background-color: #027BFF;
+}
+.fa-envelope{
+	font-size: 35px
+}
+.footer i{
+	vertical-align: middle;
+	margin-right: 20px;
 }
 
 /*-------------------Work 01 e 02-----------------*/
