@@ -89,8 +89,14 @@ p{
 }
 .contactMe img{
 	margin-right: 10px;
+	height: 40px;
+	width: 50px;
 }
+.fab{
+	color: #A6A6A6;
+	font-size: 26px;
 
+}
 /*-------------------Intro-----------------*/
 .intro{
 	height: 100vh;
@@ -123,7 +129,7 @@ ul{
 /*-------------------Skills-----------------*/
 .skills{
 	text-align: center;
-	margin-bottom: 20em;
+	margin-bottom: 10em;
 }
 .skills p{
 	margin-bottom: 30px;
@@ -220,7 +226,7 @@ ul{
 	text-decoration: none;
 }
 .underlineSmall{
-	display: block;
+	display: inline-block;
 	height: 3px;
 	width: 41px;
 	margin: 5px auto 0 auto;
@@ -245,4 +251,11 @@ ul{
 }
 .work2:hover .workText{
 	margin-top: -10px
+}
+.nero{
+	color: black
+}
+.lavori-titolo{
+	text-align: center;
+	margin-bottom: 130px;
 }
