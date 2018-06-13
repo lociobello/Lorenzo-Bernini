@@ -42,6 +42,9 @@ h2{
 	font-weight: bold;
 	color: #17191A;
 }
+h3{
+	font-size: 25px
+}
 h5{
 	font-weight: 25;
 	font-size: 20px;
@@ -90,7 +93,7 @@ p{
 .contactMe img{
 	margin-right: 10px;
 	height: 40px;
-	width: 50px;
+	width: 55px;
 }
 .fab{
 	color: #A6A6A6;
@@ -228,17 +231,6 @@ ul{
 .footer h3, .footer i{
 	display: inline-block;
 }
-.underlineSmall{
-	position: relative;
-}
-.underlineSmall::before{
-	content: "";
-	height: 3px;
-	width: 100%;
-	position: absolute;
-	bottom: -5px;
-	background-color: #027BFF;
-}
 .fa-envelope{
 	font-size: 35px
 }
@@ -269,7 +261,7 @@ ul{
 .nero{
 	color: black
 }
-.lavori-titolo{
+.lavoriTitolo{
 	text-align: center;
 	margin-bottom: 130px;
 }
