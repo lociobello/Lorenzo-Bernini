@@ -24,9 +24,9 @@ html{
 body{
 	width: 60%;
 	margin: auto;
-	background-image: url(immagini/BG.png);
+	background-image: url(immagini/BG_05.png);
 	background-position: top;
-	background-size: cover;
+	background-size: auto;
 	background-repeat: no-repeat;
 }
 .blue{
@@ -123,7 +123,7 @@ ul{
 }
 .scroll{
 	position: absolute;
-	bottom: 180px;
+	bottom: 235px;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -231,12 +231,11 @@ ul{
 .footer h3, .footer i{
 	display: inline-block;
 }
-.fa-envelope{
-	font-size: 35px
-}
 .footer i{
 	vertical-align: middle;
-	margin-right: 20px;
+	margin-right: 25px;
+	font-size: 35px;
+	margin-top: -10px
 }
 
 /*-------------------Work 01 e 02-----------------*/
